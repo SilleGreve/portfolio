@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffebf1;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #6d9f71;
+    padding: 20px 20px 500px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;  /* Juster størrelsen efter behov */
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 30px; /* Giver mellemrum mellem menupunkterne */
+    margin: 10px 60px 10px 40px;
+}
+
+.navbar a {
+    color: #ffebf1;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+    background-color: #337357;
+    border-radius: 20px;
+}
