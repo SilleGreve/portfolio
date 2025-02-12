@@ -1,4 +1,5 @@
 
+
 .om-mig {
     display: flex; /* Bruger flexbox til at placere tekst og billede side om side */
     align-items: center; /* Centrerer indholdet vertikalt */
@@ -6,7 +7,7 @@
     max-width: 100%;
     height: 100vh; /* Sørger for, at sektionen fylder hele viewport-højden */
     padding: 0 5%; /* Tilføjer lidt margin fra kanterne */
-    background-color: #75AD8A;
+ 
 }
 
 .tekst-om-mig {
@@ -26,12 +27,33 @@
     object-fit: cover; /* Sørger for, at billedet dækker containeren uden at blive strukket */
 }
 
+.cv-container {
+    background-color: #75AD8A;
+    text-align: center;
+}
 
-.værktøjskasse {
-    display: flex; /* Bruger flexbox til at placere tekst og billede side om side */
-    justify-content: center;
-    max-width: 100%;
-    height: 100vh; /* Sørger for, at sektionen fylder hele viewport-højden */
-    padding: 100px; /* Tilføjer lidt margin fra kanterne */
-    background-color: green;
+.so-me {
+    text-align: center;
+}
+
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto; /* Billedet vil få sin egen højde baseret på bredde */
+    max-height: 100vh; /* Forhindrer billedet i at blive højere end skærmen */
+    background-color:#ffebf1 ;
+}
+
+.banner img {
+    width: 100%;
+    height: auto; /* Billedets højde justeres automatisk for at bevare proportionerne */
+    object-fit: contain; /* Sørger for, at hele billedet vises uden at blive beskåret */
+}
+
+.hvis-jeg-var {
+    width: 70%; /* Gør teksten halvt så bred som sektionen */
+    padding-right: 5%; /* Tilføjer lidt afstand til billedet */
+    margin: 30px;
 }

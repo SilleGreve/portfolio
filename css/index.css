@@ -7,27 +7,38 @@ body {
     padding: 0;
 }
 
+p {
+    font-size: 20px;
+    margin: 50px;
+}
+
 h1 {
     font-family:  'DynaPuff', cursive;
     font-size: 50px;
     font-weight: bold;
-    text-align: center;
+    /* text-align: center; */
+    padding: 10px;
+    margin: 50px;
 }
 
 h2 {
     font-family:  'DynaPuff', cursive;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
-    text-align: center;
+    /* text-align: center; */
+    margin: 50px;
 }
 
 .navbar {
     width: 100%;
-    background-color: #ffebf1;
-    padding: 20px 20px 500px 20px;
+    position: sticky; /* Gør navbaren sticky */
+    top: 0; /* Holder navbaren øverst */
+    z-index: 1000; /* Sørger for at navbaren er øverst */
+    padding: 20px 20px 20px 20px; /* Justerer paddingen, så den ikke er så stor i bunden */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: transparent; /* Fjern baggrundsfarven fra navbaren */
 }
 
 .logo {
@@ -53,4 +64,19 @@ h2 {
 .navbar a:hover {
     background-color: #337357;
     border-radius: 20px;
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto; /* Billedet vil få sin egen højde baseret på bredde */
+    max-height: 100vh; /* Forhindrer billedet i at blive højere end skærmen */
+    background-color:#ffebf1 ;
+}
+
+.banner img {
+    width: 100%;
+    height: auto; /* Billedets højde justeres automatisk for at bevare proportionerne */
+    object-fit: contain; /* Sørger for, at hele billedet vises uden at blive beskåret */
 }

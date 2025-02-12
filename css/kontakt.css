@@ -1,0 +1,11 @@
+.oplysninger {
+    padding: 30px;
+    margin: 30px;
+}
+
+.mine-oplysninger {
+    color: #75AD8A;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:  'DynaPuff', cursive;
+}
