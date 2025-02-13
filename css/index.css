@@ -25,20 +25,10 @@ h2 {
     font-family:  'DynaPuff', cursive;
     font-size: 30px;
     font-weight: bold;
-    /* text-align: center; */
+    line-height: 50px;
+    text-align: center; 
     margin: 50px;
-}
-
-.navbar {
-    width: 100%;
-    position: sticky; /* Gør navbaren sticky */
-    top: 0; /* Holder navbaren øverst */
-    z-index: 1000; /* Sørger for at navbaren er øverst */
-    padding: 20px 20px 20px 20px; /* Justerer paddingen, så den ikke er så stor i bunden */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: transparent; /* Fjern baggrundsfarven fra navbaren */
+    color: #337357;
 }
 
 .logo {
@@ -46,27 +36,7 @@ h2 {
     height: auto;
 }
 
-.menu {
-    display: flex;
-    gap: 30px; /* Giver mellemrum mellem menupunkterne */
-    margin: 10px 60px 10px 40px;
-}
-
-.navbar a {
-    color: #75AD8A;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px 15px;
-    font-family:  'DynaPuff', cursive;
-    font-weight: bold;
-}
-
-.navbar a:hover {
-    background-color: #337357;
-    border-radius: 20px;
-}
-
-
+/* Styling af banner */
 .banner {
     position: relative;
     width: 100%;
@@ -79,4 +49,5 @@ h2 {
     width: 100%;
     height: auto; /* Billedets højde justeres automatisk for at bevare proportionerne */
     object-fit: contain; /* Sørger for, at hele billedet vises uden at blive beskåret */
+    margin-top: 130px;
 }
