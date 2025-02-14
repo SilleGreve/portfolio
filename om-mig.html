@@ -4,21 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Handlee&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_names=menu" />
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/om-mig.css">
     <link rel="stylesheet" href="css/index.css">
     <title>Om mig</title>
 </head>
 <body>
     
-    <nav class="navbar">
-        <img src="img/logo.webp" alt="Logo" class="logo">
-        <div class="menu">
-            <a href="index.html">FORSIDE</a>
-            <a href="om-mig.html">OM MIG</a>
-            <a href="projekter.html">PROJEKTER</a>
-            <a href="kontakt.html">KONTAKT</a>
-        </div>
-    </nav>
+    <header>
+        <!-- Nav-Title, Indeholder logoet-->
+        <nav class="nav-title">
+                <img src="" alt="portfolio logo">
+        </nav>
+    
+        <!-- Navigation Checkbox: Bruges til at styre visning af menuen -->
+        <input type="checkbox" id="nav-check">
+    
+        <!-- Navigation Button: burger-ikon til mobilvisning -->
+        <nav class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </nav>  
+    
+        <!-- Nav-list: Primære navigationspunkter -->
+        <ul class="nav-list">
+            <!-- Indeholder menupunkter -->
+            <li class="nav-list-item">
+                <a href="index.html">FORSIDE</a>
+                <a href="om-mig.html">OM MIG</a>
+                <a href="projekter.html">PROJEKTER</a>
+                <a href="kontakt.html">KONTAKT</a>
+            </li>
+    </header>
 
     <div class="banner">
         <img src="img/forside-banner.webp" alt="">
@@ -28,22 +52,14 @@
         <section class="tekst-om-mig">
             <h1>Hvem er Sille?</h1>
             <p>"Jeg er 23 år og bor i en lille lejlighed i Aarhus N – et sted, hvor kreativiteten trives på trods af pladsmangel og en konstant risiko for at træde på en vildfaren perle. Min hjerne kører på højtryk med idéer, uanset om jeg strikker, nørkler med perler eller er ude på en af mine (lidt for lange) gåture, hvor jeg pludselig tror, jeg har opfundet den dybe grafiske tallerken.</p>
-            <p>Sidste sommer kastede jeg mig ud i et fem ugers eventyr på den anden side af jorden. Jeg gik fra junglevandringer, hvor jeg overvejede, om civilisation bare var en fjern drøm, til at bo i en luksusvilla, som jeg lidt for hurtigt følte mig hjemme i. Turen lærte mig at stå på egne ben, skubbe mine grænser og – ikke mindst – at Google Maps ikke altid er til at stole på i en tæt jungle.</p>
             <p>Når jeg ikke sidder begravet i designprojekter eller prøver at få mine pixels til at makke ret, nyder jeg tid med venner og familie – eller en velfortjent kaffepause med strikketøj i hånden og en lille kamp mod fristelsen til lige at starte et nyt projekt, før det gamle er færdigt."</p>
+            <p>Jeg er på 3. semester af multimediedesign-uddannelsen og drømmer om at udfolde min grafiske kreativitet gennem sociale medier, digital kommunikation og branding. Jeg brænder for at skabe visuelle identiteter, der ikke bare ser flotte ud, men også formidler det rette budskab til den rette målgruppe."</p>
         </section>
         <section class="billede-om-mig">
             <img src="img/logo.webp" alt="">
         </section>
     </div>
 
-
-
-    <!-- <div class="so-me">
-        <h2>Stigende interesse for SoMe</h2>
-        <section>
-            <p>Mode og styling er en af mine store passioner – så meget, at mit sabbatår blev en undskyldning for at dykke helt ned i det. Her samler jeg visuelle referencer inden for farver, teksturer og trends, som hjælper mig i både mit studie og mine kreative processer. Uanset om det gælder digitalt design eller tøjstyling, elsker jeg at lege med sammensætning og visuel harmoni – og ja, mit Pinterest-forbrug er nok lidt over gennemsnittet.</p>
-        </section>
-    </div> -->
 
     <div class="hvis-jeg-var">
         <section class="hvis-jeg-var-tekst">
@@ -57,12 +73,11 @@
             <p>7. En layout-strategi: Grid-system – fordi struktur skaber overblik og ro.</p>
             <p>8. En emoji: ✨ – fordi alt bliver bedre med lidt ekstra glimmer. Som hella joof siger “glimmer på og op på kaminhylden”</p>
         </section>
-
     </div>
 
     <div class="cv-container">
         <section class="cv-bnt">
-            <button class="cv"></button>
+            <button class="cv">Nysgerrig på mere? Her kan du se mit cv</button>
         </section>
     </div>
 

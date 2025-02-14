@@ -51,3 +51,14 @@ h2 {
     object-fit: contain; /* Sørger for, at hele billedet vises uden at blive beskåret */
     margin-top: 130px;
 }
+
+footer {
+    background-color: #75AD8A;
+    padding: 10px;
+}
+.footer {
+    font-family:  'DynaPuff', cursive;
+    font-size: 15px;
+    text-align: center;
+    color: #ffebf1;
+}
