@@ -28,7 +28,7 @@ h2 {
     line-height: 50px;
     text-align: center; 
     margin: 50px;
-    color: #337357;
+    color: #75AD8A;
 }
 
 .logo {
@@ -51,6 +51,8 @@ h2 {
     object-fit: contain; /* Sørger for, at hele billedet vises uden at blive beskåret */
     margin-top: 130px;
 }
+
+
 
 footer {
     background-color: #75AD8A;

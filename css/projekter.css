@@ -1,0 +1,30 @@
+/* .container {
+    display: grid;
+    grid-template-rows: repeat(20, 40px);
+    grid-template-columns: repeat(20, 40px);
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px); /* Tre lige store kolonner */
+    gap: 10px; /* Justér afstanden mellem billederne */
+    justify-content: center; /* Centrerer grid-indholdet */
+    align-items: center;
+    max-width: 900px; /* Tilpas bredde efter behov */
+    margin: 0 auto; /* Centrerer containeren */
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  'DynaPuff', cursive;
+    color: #75AD8A;
+}
+
+.content img {
+    width: 100%; /* Sørger for, at billederne fylder artiklen */
+    height: auto; /* Bevarer billedets proportioner */
+    object-fit: cover; /* Sikrer, at billedet beskæres pænt */
+    border-radius: 8px; /* Tilføjer lidt afrundede hjørner */
+}
