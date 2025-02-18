@@ -3,6 +3,7 @@
     flex-direction: row;
     gap: 20px;
     margin: 10px;
+    align-items: center;
 }
 
 .grid.reverse {
@@ -40,8 +41,35 @@
     border-radius: 5px; /* Rundere hjørner på knappen */
     cursor: pointer;
     font-family:  'DynaPuff', cursive;
+    text-decoration: none !important;
 }
 
 .grid .item .btn:hover {
     background-color: #337357; /* Skifter baggrundsfarve ved hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile enheder */
+@media (max-width: 768px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100vw; 
+        height: auto; 
+        margin-top: 0px;
+    }
+  
 }
