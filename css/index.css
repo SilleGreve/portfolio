@@ -1,8 +1,8 @@
 
 body {
     background-color: #ffebf1;
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0; 
 }
 
 p {
@@ -19,7 +19,7 @@ h1 {
     line-height: 100px; 
     margin: 50px;
     color: #75AD8A;
-    margin-top: 115px;
+    margin-top: 150px;
 }
 
 h2 {
@@ -29,6 +29,7 @@ h2 {
     line-height: 50px;
     /* text-align: center;  */
     margin: 50px;
+    margin-top: 150px;
     color: #75AD8A;
 }
 
@@ -49,7 +50,7 @@ h4 {
     line-height: 50px; 
     margin: 50px 90px;
     color: #75AD8A;
-    margin-top: 60px;
+    margin-top: 150px;
     text-align: center;
 }
 
@@ -58,10 +59,9 @@ h5 {
     font-size: 20px;
     font-weight: bold;
     line-height: 30px; 
-    margin: 50px;
+    
     color: #75AD8A;
     margin-top: 115px;
-    margin: 50px;
 }
 
 .logo {
@@ -117,20 +117,24 @@ h5 {
     font-size: 20px;
     font-family: 'DynaPuff', cursive;
     font-weight: bold;
-    padding: 20px 40px; 
-    margin: 30px;
+    padding: 20px 30px; 
+    margin: 0px 35px 35px 35px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .projekt:hover {
     background-color: #75AD8A;
 }
 
+/* Styling af min footer */
 footer {
     background-color: #75AD8A;
     padding: 10px;
+    width: 100%;
+    margin-top: 100px;
 }
+
 .footer {
     font-family:  'DynaPuff', cursive;
     font-size: 15px;
@@ -214,25 +218,73 @@ footer {
 
 /* Mobile enheder */
 @media (max-width: 768px) {
-    
-    h1 {
-        font-family:  'DynaPuff', cursive;
-        font-size: 30px;
-        font-weight: bold;
-    }
-    
-    h2 {
-        font-size: 20px;  /* Mindre skrift på mobilen */
+
+    p {
+        font-size: 15px;
+        margin: 20px 10px;
         line-height: 30px;
     }
 
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: bold;
+        margin: 20px 20px;
+    }
+    
+    h2 {
+        font-size: 40px;  /* Mindre skrift på mobilen */
+        line-height: 30px;
+        margin: 20px 10px;
+    }
+
     h3 {
-        font-family:  'DynaPuff', cursive;
         font-size: 40px;
         font-weight: bold;
         line-height: 60px; 
- 
     }
-    
+
+    h4 {
+        font-size:15px;
+        font-weight: bold;
+        line-height: 30px; 
+        margin: 20px 10px;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 15px;
+        font-weight: bold; 
+    }
+
+    .image {
+        width: 90%; /* Gør containeren smallere på mobil */
+        margin: 0 auto; /* Centrerer containeren på skærmen */
+    }
+
+    .projekter-container {
+        margin: 20px 50px; /* Mindre margin på mobil */
+        margin-top: 40px;
+        padding: 10px; /* Reducer padding på mobil */
+        height: auto; /* Lad højden være automatisk */
+    }
+
+    .projekt {
+    padding: 10px 20px; /* Mindre padding på mobil */
+    font-size: 16px; /* Mindre skriftstørrelse på mobil */
+    margin: 10px; /* Juster margin for knappen */
+    }
+
+
+
+    footer {
+        height: 80px;
+        padding: 0px;
+        margin: 0;
+        margin-top: 40px;
+        display: flex; /* Sørg for at flexbox stadig virker */
+        justify-content: center; /* Centrerer horisontalt */
+        align-items: center; /* Centrerer vertikalt */
+    }   
 }
 

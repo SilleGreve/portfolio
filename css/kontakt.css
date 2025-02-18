@@ -1,10 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 30px;
-    background-color: #ffebf1;
-    margin: 0;
-    padding: 0;
-}
+
 
 .oplysninger {
     display: flex;
@@ -15,13 +9,9 @@ body {
 
 }
 
-.mine-oplysninger {
-    max-width: 300px; /* Begrænser bredden for bedre centrering */
-}
-
 .mine-oplysninger p,
 .mine-oplysninger a {
-    margin: 5px 0; /* Reducerer afstand mellem elementerne */
+    margin: 5px 10; /* Reducerer afstand mellem elementerne */
     font-size: 15px; /* Sikrer god læsbarhed */
     text-decoration: none;
     color: #75AD8A; /* Justér farven efter dit design */
@@ -29,13 +19,6 @@ body {
 
 .mine-oplysninger a:hover {
     text-decoration: underline;
-}
-
-.oplysninger p {
-    color: #75AD8A;
-    font-size: 30px; /* Sikrer god læsbarhed */
-    line-height: 100px;
-
 }
 
 .mine-oplysninger a {
