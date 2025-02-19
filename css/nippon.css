@@ -1,1 +1,57 @@
+.carousel-container {
+    position: relative;
+    max-width: 800px;
+    overflow: hidden;
+}
 
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+/* Styling af navigationspile */
+button.carousel-prev,
+button.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.6); /* Let gennemsigtig baggrund */
+    color: #75AD8A;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+/* Placering af pilene */
+button.carousel-prev {
+    left: 10px;
+}
+
+button.carousel-next {
+    right: 10px;
+}
+
+/* Gør pilene synlige over billederne */
+.carousel-container:hover button {
+    opacity: 1;
+}
+
+button.carousel-prev:hover,
+button.carousel-next:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}

@@ -74,7 +74,7 @@ h6 {
 
 /* Styling af logo i nav */
 .logo {
-    width: 100px;  /* Juster størrelsen efter behov */
+    width: 100px; 
     height: auto;
 }
 
@@ -82,15 +82,15 @@ h6 {
 .banner {
     position: relative;
     width: 100%;
-    height: auto; /* Billedet vil få sin egen højde baseret på bredde */
-    max-height: 100vh; /* Forhindrer billedet i at blive højere end skærmen */
+    height: auto;
+    max-height: 100vh; 
     background-color:#ffebf1 ;
 }
 
 .banner img {
     width: 100%;
-    height: auto; /* Billedets højde justeres automatisk for at bevare proportionerne */
-    object-fit: contain; /* Sørger for, at hele billedet vises uden at blive beskåret */
+    height: auto;
+    object-fit: contain; 
     margin-top: 130px;
 }
 
@@ -98,18 +98,18 @@ h6 {
 /* Styling af knap under om mig og projekter */
 .projekter-container {
     display: flex;
-    justify-content: center; /* Centrerer indhold horisontalt */
-    align-items: center; /* Centrerer indhold vertikalt */
-    height: 20vh; /* Gør containeren mindre i højden */
+    justify-content: center; 
+    align-items: center; 
+    height: 20vh; 
     background-color: #75AD8A;
-    padding: 20px 40px; /* Mindre padding for at gøre containeren mindre */
-    margin: 20px 200px; /* Mindre margin for at give containeren mindre plads */
+    padding: 20px 40px; 
+    margin: 20px 200px; 
     border: none;
     border-radius: 10px;
 }
 
 .projekter-bnt {
-    text-align: center; /* Sørger for at teksten er centreret */
+    text-align: center;
     margin-top: 50px;
 }
 
@@ -118,7 +118,7 @@ h6 {
     font-size: 18px;
     font-family: 'DynaPuff', cursive;
     font-weight: normal;
-    margin-bottom: 10px; /* Afstand mellem tekst og knap */
+    margin-bottom: 10px; 
     text-decoration: none;
 }
 
@@ -165,19 +165,19 @@ footer {
 }
 
 .image-container img {
-    width: 100%;  /* Billedet fylder hele containeren */
+    width: 100%;  
     height: auto;
-    max-width: 70%;   /* Maksimal bredde sat til 70% af skærmen */
-    max-height: 80%;  /* Maksimal højde sat til 80% af skærmen */
+    max-width: 70%;   
+    max-height: 80%;  
 }
 
 /* Styling af hover-zoner */
 .hover-zone {
     position: absolute;
-    width: 10px; /* Størrelse af zonerne */
+    width: 10px;
     height: 10px;
     cursor: pointer;
-    background: #75AD8A; /* Midlertidig rød farve til synliggørelse */
+    background: #75AD8A; 
 }
 
 /* styling af tekster */

@@ -1,5 +1,5 @@
 
-
+/* Styling af oplysningerne på kontakt siden */
 .oplysninger {
     display: flex;
     justify-content: center;
@@ -11,10 +11,10 @@
 
 .mine-oplysninger p,
 .mine-oplysninger a {
-    margin: 5px 10px; /* Reducerer afstand mellem elementerne */
-    font-size: 15px; /* Sikrer god læsbarhed */
+    margin: 5px 10px; 
+    font-size: 15px; 
     text-decoration: none;
-    color: #75AD8A; /* Justér farven efter dit design */
+    color: #75AD8A; 
 }
 
 .mine-oplysninger a:hover {
@@ -25,6 +25,7 @@
     font-size: 30px;
 }
 
+/* Mobile enheder */
 @media (max-width: 768px) {
     .mine-oplysninger a {
         font-size: 15px;
