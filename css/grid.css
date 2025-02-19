@@ -51,20 +51,19 @@
 
 
 
-
-
-
-
-
-
-
-
 /* Mobile enheder */
 @media (max-width: 768px) {
     .grid {
         display: flex;
         flex-direction: column;
     }
+
+    .grid.reverse {
+        flex-direction: column;
+    }
+    .grid .item .btn {
+        font-size: 8px;
+}
 
     .image {
         width: 100vw; 
