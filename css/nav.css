@@ -1,3 +1,4 @@
+/* Generel styling af nav elementer */
 header {
     background-color: #ffebf1;
     color:#75AD8A;
@@ -12,13 +13,6 @@ header {
     height: 80px; 
     font-family:  'DynaPuff', cursive;
 }
-
-
-/* Logo styling */
-/* .nav-title .logo img {
-    height: 40px;
-    width: auto;
-} */
 
 
 /* Styling af placering af btn */
@@ -46,13 +40,13 @@ header {
 #nav-check:checked ~ .nav-btn label span:nth-child(1) {
     transform: rotate(45deg);
     position: absolute; /* Sørger for, at linjerne overlapper */
-    top: 50%; /* Centrer lodret */
-    left: 50%; /* Centrer vandret */
+    top: 50%; 
+    left: 50%; 
     transform: translate(-50%, -50%) rotate(45deg);
 }
 
 #nav-check:checked ~ .nav-btn label span:nth-child(2) {
-    opacity: 0; /* Skjuler midterlinjen */
+    opacity: 0; 
 }
 
 #nav-check:checked ~ .nav-btn label span:nth-child(3) {
@@ -70,7 +64,7 @@ Når menuen er lukket, gendannes burger-ikonet
 }
 
 #nav-check:not(:checked) ~ .nav-btn label span:nth-child(2) {
-    opacity: 1; /* Gør den midterste linje synlig igen */
+    opacity: 1; 
 }
 
 /* gemmer checkboksen */
@@ -112,6 +106,7 @@ Når menuen er lukket, gendannes burger-ikonet
     padding: 20px;
 }
 
+/* Mobile enheder */
 @media (max-width: 768px) {
     /* Sørger for at burgerikonet er placeret korrekt */
     .nav-btn {
@@ -145,13 +140,13 @@ Når menuen er lukket, gendannes burger-ikonet
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;  /* Nu fylder menuen hele bredden */
-        height: 100vh; /* Nu fylder menuen hele højden */
+        width: 100%; 
+        height: 100vh; 
         background-color: #ffebf1;
         align-items: flex-start; /* Sørger for at menupunkterne står til venstre */
         justify-content: flex-start;
-        padding-top: 40px; /* Skaber afstand fra toppen */
-        padding-left: 40px; /* Giver lidt luft fra venstre kant */
+        padding-top: 40px;
+        padding-left: 40px; 
         z-index: 1000;
         opacity: 0;
         transform: translateX(-100%);

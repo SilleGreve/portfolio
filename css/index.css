@@ -1,4 +1,4 @@
-
+/* Styling af de basale elementer på siderne */
 body {
     background-color: #ffebf1;
     margin: 0;
@@ -72,6 +72,7 @@ h6 {
     text-align: center;
 }
 
+/* Styling af logo i nav */
 .logo {
     width: 100px;  /* Juster størrelsen efter behov */
     height: auto;
@@ -118,6 +119,7 @@ h6 {
     font-family: 'DynaPuff', cursive;
     font-weight: normal;
     margin-bottom: 10px; /* Afstand mellem tekst og knap */
+    text-decoration: none;
 }
 
 .projekt {
@@ -130,6 +132,7 @@ h6 {
     margin: 0px 35px 35px 35px;
     border: none;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 .projekt:hover {
@@ -168,7 +171,7 @@ footer {
     max-height: 80%;  /* Maksimal højde sat til 80% af skærmen */
 }
 
-/* Stil for hover-zoner */
+/* Styling af hover-zoner */
 .hover-zone {
     position: absolute;
     width: 10px; /* Størrelse af zonerne */
@@ -177,7 +180,7 @@ footer {
     background: #75AD8A; /* Midlertidig rød farve til synliggørelse */
 }
 
-/* Stil for tekster */
+/* styling af tekster */
 .hover-text {
     position: absolute;
     background-color: #337357;
@@ -242,7 +245,7 @@ footer {
     }
     
     h2 {
-        font-size: 40px;  /* Mindre skrift på mobilen */
+        font-size: 40px;  
         line-height: 40px;
         margin: 20px 10px;
     }
@@ -275,28 +278,36 @@ footer {
     }
 
     .image {
-        width: 90%; /* Gør containeren smallere på mobil */
-        margin: 0 auto; /* Centrerer containeren på skærmen */
+        width: 90%; 
+        margin: 0 auto;
     }
 
+    /* Skal måske slettes */
     .projekter-container {
-        margin: 20px 50px; /* Mindre margin på mobil */
+        margin: 200px 50px;
         margin-top: 40px;
-        padding: 10px; /* Reducer padding på mobil */
-        height: auto; /* Lad højden være automatisk */
+        padding: 10px; 
+        height: auto; 
     }
 
     .projekt {
-    padding: 10px 20px; /* Mindre padding på mobil */
-    font-size: 16px; /* Mindre skriftstørrelse på mobil */
-    margin: 10px; /* Juster margin for knappen */
+    padding: 10px 20px;
+    font-size: 16px; 
+    margin: 30px; 
     }
 
+    .projekter-bnt {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px; 
+    }
+    /* 'Hertil */
+    
 
     body {
         display: flex;
         flex-direction: column;
-        min-height: 100vh; /* Sørg for at hele skærmen fyldes */
+        min-height: 100vh; 
     }
 
     .footer {
@@ -310,8 +321,6 @@ footer {
         margin: 0;
         margin-top: auto; /* Tvinger footeren til at være i bunden */
     }
-
-
 
     /* Juster positioner på mobil */
     .zone1 { top: 27%; left: 17%; }

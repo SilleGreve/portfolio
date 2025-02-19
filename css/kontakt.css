@@ -11,7 +11,7 @@
 
 .mine-oplysninger p,
 .mine-oplysninger a {
-    margin: 5px 10; /* Reducerer afstand mellem elementerne */
+    margin: 5px 10px; /* Reducerer afstand mellem elementerne */
     font-size: 15px; /* Sikrer god læsbarhed */
     text-decoration: none;
     color: #75AD8A; /* Justér farven efter dit design */

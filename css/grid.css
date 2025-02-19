@@ -23,29 +23,29 @@
 
 
 .grid .item {
-    width: 30%; /* Giver hvert element 30% af pladsen */
-    text-align: center; /* Centrerer teksten */
+    width: 30%; 
+    text-align: center;
 }
 
 .grid .item img {
-    width: 100%; /* Billedet fylder hele containerens bredde */
-    height: auto; /* Bevarer billedets proportioner */
+    width: 100%;
+    height: auto; 
 }
 
 .grid .item .btn {
-    margin-top: 10px; /* Placerer knappen under billedet */
+    margin-top: 10px; 
     padding: 10px 20px;
-    background-color: #75AD8A; /* Baggrundsfarve på knappen */
-    color: #ffebf1; /* Knappens tekstfarve */
+    background-color: #75AD8A; 
+    color: #ffebf1; 
     border: none;
-    border-radius: 5px; /* Rundere hjørner på knappen */
+    border-radius: 10px; 
     cursor: pointer;
     font-family:  'DynaPuff', cursive;
     text-decoration: none !important;
 }
 
 .grid .item .btn:hover {
-    background-color: #337357; /* Skifter baggrundsfarve ved hover */
+    background-color: #337357; 
 }
 
 
